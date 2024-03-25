@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+  display:flex;
+  flex-direction:column;
+  
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+h1 {
+  width:100%;
+  text-align: center;
+  font-size: 64px;
+  font-family: "Playfair Display SC"
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+th {
+  width: 100%;
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: white;
+}
+  tr:nth-child(odd) {
+  background-color: bisque;
+}
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%
+}
+textarea {
+  width: 100%
+}
+img{
+  width:100%
+}
+
+
+
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* Column Size for thead */
+
+
+/* Column size for tbody */
